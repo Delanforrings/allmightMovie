@@ -12,13 +12,13 @@ class TopNavBar extends React.Component {
                             <a href="/MyHeroAcademia">Home</a>
                         </MDBCol>
                         <MDBCol size="3" className="col">
-                            <a>Characters</a>
+                            <a href="/Characters">Characters</a>
                         </MDBCol>
                         <MDBCol size="3" className="col">
-                            <a>Media</a>
+                            <a href="Media">Media</a>
                         </MDBCol>
                         <MDBCol size="3" className="col">
-                            <a>Contact Us</a>
+                            <a href="Contact">Contact Us</a>
                         </MDBCol>
                     </MDBRow>
                 </MDBMask>

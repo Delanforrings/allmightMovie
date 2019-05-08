@@ -12,7 +12,7 @@ class Home extends React.Component {
             <div id="Home">
                 <MDBView>
                     <video className="video-intro vbg" playsInline
-                           autoPlay muted="1" loop>
+                           autoPlay muted="" loop>
                         <source src={home_bg_video} type="video/mp4" />
                     </video>
                     <MDBMask className="flex-center" pattern={4} overlay="red-strong" >

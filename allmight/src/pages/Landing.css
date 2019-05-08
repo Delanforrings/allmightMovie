@@ -53,3 +53,9 @@ body {
 #Landing .repos{
     margin-left: 15em;
 }
+
+#Landing .weightBold{
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
