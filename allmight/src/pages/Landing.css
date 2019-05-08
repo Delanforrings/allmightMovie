@@ -1,0 +1,55 @@
+body {
+    background-color: black !important;
+}
+
+#Landing p {
+    font-family: "Futura", sans-serif;
+    margin-left: 15em;
+    color: white;
+    height: 20vh;
+    width: 40vw;
+}
+
+#Landing .sizing{
+    max-height: 100vh;
+    max-width: 100vw;
+
+}
+
+#Landing .sizing_plot{
+    max-height: 80vh;
+    max-width: 80vw;
+}
+
+#Landing .sizing_bg{
+    padding-left: 4rem;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+#Landing h1 {
+    font-family: "Futura", sans-serif;
+    color: white;
+}
+
+#Landing .yellow_hr {
+    border-top: 3px dotted #F2DC43;
+}
+
+#Landing .red_hr {
+    border-top: 3px dotted #ED1F24;
+}
+
+
+#Landing .dark_gradient_top{
+    background-image: linear-gradient(to top, black, transparent);
+
+}
+
+#Landing .dark_gradient_btm{
+    background-image: linear-gradient(to bottom, black, transparent);
+}
+
+#Landing .repos{
+    margin-left: 15em;
+}
