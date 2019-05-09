@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {MDBContainer, MDBRow, MDBCol, MDBView, MDBMask} from 'mdbreact';
 import Helmet from "react-helmet";
-import "./Landing.css";
+import "./Landing.scss";
 import Landing_bg from "../images/introbg.png";
 import landing_intro from "../images/banner3.png";
 import plot from "../images/plot.jpeg";

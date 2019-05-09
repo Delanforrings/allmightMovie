@@ -62,9 +62,20 @@
     font-size: 1.4em;
 }
 
+#Characters .SidebarText_Iida{
+    color: white;
+    transition: 0.5s;
+    font-size: 1em;
+}
+
+#Characters .SidebarText_Iida:hover{
+    background-image: url("../images/Iida_sm_c.jpeg");
+    font-size: 1.4em;
+}
+
 #Characters .sizing{
     height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 
 #Characters .repos{
@@ -294,6 +305,48 @@
 
 
 #Uraraka a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+/*Iida top nav bar*/
+
+#Characters .font_colour_iida{
+    color: #87FFFE;
+}
+
+#Iida a {
+    font-family: "Futura", sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 2em;
+}
+
+#Iida .col {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+#Iida a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    bottom: 30%;
+    position: absolute;
+    background: #87FFFE;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+
+
+#Iida a:hover:after {
     width: 100%;
     left: 0;
 }

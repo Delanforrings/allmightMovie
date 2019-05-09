@@ -8,6 +8,9 @@ import Deku from "./pages/Deku";
 import Bokugo from "./pages/Bokugo";
 import Shoto from "./pages/Shoto";
 import Uraraka from "./pages/Uraraka";
+import Iida from "./pages/Iida";
+import Media from "./pages/Media";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
                   <Route path="/Bokugo" component={Bokugo} />
                   <Route path="/Shoto" component={Shoto} />
                   <Route path="/Uraraka" component={Uraraka} />
+                  <Route path="/Iida" component={Iida} />
+                  <Route path="/Media" component={Media} />
+                  <Route path="/Contact" component={Contact} />
 
               </Animation>
           </div>

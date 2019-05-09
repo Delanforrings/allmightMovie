@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {MDBContainer, MDBRow, MDBCol, MDBView, MDBMask} from 'mdbreact';
-import "./Characters.css"
+import "./Characters.scss"
 import Helmet from "react-helmet";
 import TopNavBar from "../components/TopNavBar";
 import SideBar from "../components/SideBar";
@@ -54,6 +54,9 @@ class Characters extends React.Component {
                                     </li>
                                     <li>
                                         <a href="/Uraraka" className="SidebarText_Uraraka">Ochaco Uraraka</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Iida" className="SidebarText_Iida">Tenya Iida</a>
                                     </li>
                                 </ul>
                             </div>

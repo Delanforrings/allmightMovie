@@ -4,31 +4,31 @@ import "./Characters.scss"
 import Helmet from "react-helmet";
 import TopNavBar from "../components/TopNavBar";
 import SideBar from "../components/SideBar";
-import character from "../images/deku_c.jpg";
+import character from "../images/Iida_c.jpg";
 
 
-class Deku extends React.Component {
+class Iida extends React.Component {
     render() {
         return (
             <div id="Characters">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Izuku Midoriya</title>
+                    <title>Tenya Iida</title>
                 </Helmet>
-                <div id="Deku" >
+                <div id="Iida" >
                     <MDBMask >
                         <MDBRow >
                             <MDBCol size="3" className="col">
-                                <a href="/MyHeroAcademia" className="font_colour_deku">Home</a>
+                                <a href="/MyHeroAcademia" className="font_colour_iida">Home</a>
                             </MDBCol>
                             <MDBCol size="3" className="col">
-                                <a href="/Characters" className="font_colour_deku">Characters</a>
+                                <a href="/Characters" className="font_colour_iida">Characters</a>
                             </MDBCol>
                             <MDBCol size="3" className="col">
-                                <a href="Media" className="font_colour_deku">Media</a>
+                                <a href="Media" className="font_colour_iida">Media</a>
                             </MDBCol>
                             <MDBCol size="3" className="col">
-                                <a href="Contact" className="font_colour_deku">Contact Us</a>
+                                <a href="Contact" className="font_colour_iida">Contact Us</a>
                             </MDBCol>
                         </MDBRow>
                     </MDBMask>
@@ -61,20 +61,19 @@ class Deku extends React.Component {
                             </div>
                             <p className="repos">
                                 <h1>
-                                    IZUKU MIDORIYA
+                                    TENYA IIDA
                                 </h1>
                                 <strong>
-                                    Izuku Midoriya (緑みどり谷や出いず久く Midoriya Izuku?), also known as Deku (デク?), is the main protagonist of My Hero Academia.
-                                </strong>
+                                    Tenya Iida (飯いい田だ天てん哉や Īda Ten'ya?), also known as Ingenium, is the class representative of Class 1-A at U.A. High School, and is training there to become a Pro Hero. He is one of the protagonists of My Hero Academia.
 
+                                </strong>
                                 <br/>
                                 <br/>
                                 <h1>
                                     個性
                                 </h1>
                                 <strong>
-                                    One For All (ワン・フォー・オール Wan Fō Ōru?): Given to him from Toshinori Yagi, or, as he’s more commonly referred to as, All Might, Izuku's Quirk gives him access to stockpiled power, granting him superhuman strength and greatly enhanced agility and mobility by spreading his power through his body.
-
+                                    Engine (エンジン Enjin?): Tenya's Quirk manifests in the form of engines in his calves, giving him super speed. His engines have multiple gears, allowing him to switch between at least First, Second, or Third Gear (more are implied) depending on the situation. Much like a real engine, his Quirk requires that the exhaust pipes on the back of his legs remain clear of obstructions in order to function properly. Tenya also needs to pay attention to drink enough orange juice, as it serves as fuel for his engines.
                                 </strong>
                             </p>
 
@@ -87,4 +86,4 @@ class Deku extends React.Component {
     }
 }
 
-export default Deku;
+export default Iida;
