@@ -2,7 +2,7 @@
   "name": "allmight",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://delanforrings.github.io/allmightMovie",
+  "homepage": "https://delanforrings.github.io/MyHeroAcademia/",
   "dependencies": {
     "mdbreact": "^4.13.0",
     "node-sass": "^4.12.0",
