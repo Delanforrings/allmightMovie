@@ -1,21 +1,19 @@
-#Media .sizing_bg{
-    height: 100vh;
-    width: 100vw;
-}
-
-#Media .dark_gradient_btm{
-    background-image: linear-gradient(to top, black, transparent);
-}
-
-#Media h1 {
-    font-family: "Futura", sans-serif;
-    color: white;
-}
-
-#Media .yellow_hr {
-    border-top: 3px dotted #F2DC43;
-}
-
-#Media .red_hr {
-    border-top: 3px dotted #ED1F24;
+#Media {
+    .sizing_bg {
+        height: 100vh;
+        width: 100vw;
+    }
+    .dark_gradient_btm {
+        background-image: linear-gradient(to top, black, transparent);
+    }
+    h1 {
+        font-family: "Futura", sans-serif;
+        color: white;
+    }
+    .yellow_hr {
+        border-top: 3px dotted #F2DC43;
+    }
+    .red_hr {
+        border-top: 3px dotted #ED1F24;
+    }
 }

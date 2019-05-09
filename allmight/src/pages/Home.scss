@@ -1,58 +1,98 @@
-#Home * {
-    margin: 0;
-    padding: 0;
-}
-#Home .imgbox {
-    display: grid;
-    height: 100%;
-}
-#Home .center-fit {
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
+#Home {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .imgbox {
+        display: grid;
+        height: 100%;
+    }
+    .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+    }
+    .view {
+        video {
+            top: 0!important;
+            left: 0!important;
+            transform: none!important;
+            height: 100vh;
+        }
+    }
+    a {
+        font-family: "Futura", sans-serif;
+        text-decoration: none;
+        font-size: 1.5em;
+        position: relative;
+        color: #ED1F24;
+        text-shadow: 0 0 10px #F2DC43, 0 0 10px black;
+        &::before {
+            position: absolute;
+            top: 0;
+            left: -350%;
+            z-index: 2;
+            display: block;
+            content: '';
+            width: 50%;
+            height: 100%;
+            background: -webkit-linear-gradient(left, rgba(242,220,67,0) 0%, rgba(242,220,67,.3) 100%);
+            background: linear-gradient(to right, rgba(242,220,67,0) 0%, rgba(242,220,67,.3) 100%);
+            -webkit-transform: skewX(-25deg);
+            transform: skewX(-25deg);
+        }
+        &:hover {
+            &::before {
+                -webkit-animation: shine 0.5s;
+                animation: shine 0.5s;
+            }
+            img {
+                display: inline;
+            }
+        }
+        img {
+            display: none;
+        }
+    }
+    .colourChange {
+        color: #F2DC43;
+        text-shadow: 0 0 10px #ED1F24, 0 0 10px black;
+    }
+    .underLn {
+        &::after {
+            transition: .6s;
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 15px;
+            background: -webkit-linear-gradient(left, rgba(237,31,36,0.3) 0%, rgba(242,220,67,1) 100%);
+            background: linear-gradient(to right, rgba(237,31,36,0.3) 0%, rgba(242,220,67,1) 100%);
+            left: 80%;
+            bottom: -3%;
+            transform: translate(-10%);
+        }
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+    .repos {
+        margin-top: 30em;
+        margin-left: 10em;
+    }
+    .boxshadow {
+        box-shadow: -10px -0px #F2DC43, -20px -0px #ED1F24;
+    }
+    .Adjust {
+        position: relative;
+        margin-bottom: 0.5em;
+        max-height: 15vh;
+        max-width: 15vw;
+    }
 }
 
-#Home .view video {
-    top: 0!important;
-    left: 0!important;
-    transform: none!important;
-    height: 100vh;
-}
 
-
-#Home a {
-    font-family: "Futura", sans-serif;
-    text-decoration: none;
-    font-size: 1.5em;
-    position: relative;
-    color: #ED1F24;
-    text-shadow: 0 0 10px #F2DC43, 0 0 10px black;
-}
-
-#Home .colourChange{
-    color: #F2DC43;
-    text-shadow: 0 0 10px #ED1F24, 0 0 10px black;
-}
-
-#Home a::before {
-
-    position: absolute;
-    top: 0;
-    left: -350%;
-    z-index: 2;
-    display: block;
-    content: '';
-    width: 50%;
-    height: 100%;
-    background: -webkit-linear-gradient(left, rgba(242,220,67,0) 0%, rgba(242,220,67,.3) 100%);
-    background: linear-gradient(to right, rgba(242,220,67,0) 0%, rgba(242,220,67,.3) 100%);
-    -webkit-transform: skewX(-25deg);
-    transform: skewX(-25deg);
-}
-#Home a:hover::before {
-    -webkit-animation: shine 0.5s;
-    animation: shine 0.5s;
-}
 @-webkit-keyframes shine {
     100% {
         left: 125%;
@@ -62,46 +102,4 @@
     100% {
         left: 125%;
     }
-}
-
-#Home .underLn::after {
-    transition: .6s;
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 15px;
-    background: -webkit-linear-gradient(left, rgba(237,31,36,0.3) 0%, rgba(242,220,67,1) 100%);
-    background: linear-gradient(to right, rgba(237,31,36,0.3) 0%, rgba(242,220,67,1) 100%);
-    left: 80%;
-    bottom: -3%;
-    transform: translate(-10%);
-}
-
-#Home .underLn:hover::after {
-    width: 100%;
-}
-
-#Home .repos{
-    margin-top: 30em;
-    margin-left: 10em;
-}
-
-#Home .boxshadow{
-    box-shadow: -10px -0px #F2DC43, -20px -0px #ED1F24;
-}
-
-#Home a img{
-    display: none;
-}
-
-#Home a:hover img {
-    display: inline;
-}
-
-#Home .Adjust{
-    position: relative;
-    margin-bottom: 0.5em;
-    max-height: 15vh;
-    max-width: 15vw;
-
 }

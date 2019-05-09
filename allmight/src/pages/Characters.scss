@@ -1,352 +1,292 @@
-#Characters .SideNavbar{
-    font-family: "Futura", sans-serif;
-    font-style: italic;
-    font-size: 2em;
-    color: white;
-    margin-top: 3em;
-    margin-left: 3em;
+#Characters {
+    .SideNavbar {
+        font-family: "Futura", sans-serif;
+        font-style: italic;
+        font-size: 2em;
+        color: white;
+        margin-top: 3em;
+        margin-left: 3em;
+    }
+    .SidebarText_Allmight {
+        color: white;
+        transition: 0.5s;
+        font-size: 1em;
+        &:hover {
+            background-image: url("../images/allmight_c.jpeg");
+            font-size: 1.4em;
+        }
+    }
+    .SidebarText_Deku {
+        color: white;
+        transition: 0.5s;
+        font-size: 1em;
+        &:hover {
+            background-image: url("../images/deku_sm_c.png");
+            font-size: 1.4em;
+        }
+    }
+    .SidebarText_Bokugo {
+        color: white;
+        transition: 0.5s;
+        font-size: 1em;
+        &:hover {
+            background-image: url("../images/Bokugo_sm_c.jpeg");
+            font-size: 1.4em;
+        }
+    }
+    .SidebarText_Shoto {
+        color: white;
+        transition: 0.5s;
+        font-size: 1em;
+        &:hover {
+            background-image: url("../images/Shoto_sm_c.png");
+            font-size: 1.4em;
+        }
+    }
+    .SidebarText_Uraraka {
+        color: white;
+        transition: 0.5s;
+        font-size: 1em;
+        &:hover {
+            background-image: url("../images/Uraraka_sm_c.jpeg");
+            font-size: 1.4em;
+        }
+    }
+    .SidebarText_Iida {
+        color: white;
+        transition: 0.5s;
+        font-size: 1em;
+        &:hover {
+            background-image: url("../images/Iida_sm_c.jpeg");
+            font-size: 1.4em;
+        }
+    }
+    .sizing {
+        height: 100%;
+        width: 100vw;
+    }
+    .repos {
+        height: 50vh;
+        width: 30vw;
+        margin-left: 27em;
+        margin-top: -16em;
+    }
+    p {
+        font-family: "Futura", sans-serif;
+        margin-left: 15em;
+        color: white;
+        height: 20vh;
+        width: 40vw;
+    }
+    .dark_gradient_btm {
+        background-image: linear-gradient(to top, black, transparent);
+    }
+    .font_colour {
+        color: #F2DC43;
+    }
+    .font_colour_deku {
+        color: #16564B;
+    }
+    .font_colour_bokugo {
+        color: #AD443C;
+    }
+    .font_colour_shoto1 {
+        color: deepskyblue;
+    }
+    .font_colour_shoto2 {
+        color: firebrick;
+    }
+    .font_colour_uraraka {
+        color: #A23760;
+    }
+    .font_colour_iida {
+        color: #87FFFE;
+    }
 }
-
-#Characters .SidebarText_Allmight{
-    color: white;
-    transition: 0.5s;
-    font-size: 1em;
+#Allmight {
+    a {
+        font-family: "Futura", sans-serif;
+        font-style: italic;
+        color: white;
+        font-size: 2em;
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 4px;
+            left: 50%;
+            bottom: 30%;
+            position: absolute;
+            background: #F2DC43;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover {
+            &:after {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+    .col {
+        padding: 2rem;
+        text-align: center;
+    }
 }
-
-#Characters .SidebarText_Allmight:hover{
-    background-image: url("../images/allmight_c.jpeg");
-    font-size: 1.4em;
+#Deku {
+    a {
+        font-family: "Futura", sans-serif;
+        font-style: italic;
+        color: white;
+        font-size: 2em;
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 4px;
+            left: 50%;
+            bottom: 30%;
+            position: absolute;
+            background: #16564B;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover {
+            &:after {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+    .col {
+        padding: 2rem;
+        text-align: center;
+    }
 }
-
-#Characters .SidebarText_Deku{
-    color: white;
-    transition: 0.5s;
-    font-size: 1em;
+#Bokugo {
+    a {
+        font-family: "Futura", sans-serif;
+        font-style: italic;
+        color: white;
+        font-size: 2em;
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 4px;
+            left: 50%;
+            bottom: 30%;
+            position: absolute;
+            background: #AD443C;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover {
+            &:after {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+    .col {
+        padding: 2rem;
+        text-align: center;
+    }
 }
-
-#Characters .SidebarText_Deku:hover{
-    background-image: url("../images/deku_sm_c.png");
-    font-size: 1.4em;
+#Shoto {
+    a {
+        font-family: "Futura", sans-serif;
+        font-style: italic;
+        color: white;
+        font-size: 2em;
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 4px;
+            left: 50%;
+            bottom: 30%;
+            position: absolute;
+            background: -webkit-linear-gradient(left, rgba(178,34,34 ,1 ) 0%, rgba(0,191,255 ,1 ) 100%);
+            background: linear-gradient(to right, rgba(178,34,34 ,1 ) 0%, rgba(0,191,255 ,1 ) 100%);
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover {
+            &:after {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+    .col {
+        padding: 2rem;
+        text-align: center;
+    }
 }
-
-#Characters .SidebarText_Bokugo{
-    color: white;
-    transition: 0.5s;
-    font-size: 1em;
+#Uraraka {
+    a {
+        font-family: "Futura", sans-serif;
+        font-style: italic;
+        color: white;
+        font-size: 2em;
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 4px;
+            left: 50%;
+            bottom: 30%;
+            position: absolute;
+            background: #A23760;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover {
+            &:after {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+    .col {
+        padding: 2rem;
+        text-align: center;
+    }
 }
-
-#Characters .SidebarText_Bokugo:hover{
-    background-image: url("../images/Bokugo_sm_c.jpeg");
-    font-size: 1.4em;
-}
-
-#Characters .SidebarText_Shoto{
-    color: white;
-    transition: 0.5s;
-    font-size: 1em;
-}
-
-#Characters .SidebarText_Shoto:hover{
-    background-image: url("../images/Shoto_sm_c.png");
-    font-size: 1.4em;
-}
-
-#Characters .SidebarText_Uraraka{
-    color: white;
-    transition: 0.5s;
-    font-size: 1em;
-}
-
-#Characters .SidebarText_Uraraka:hover{
-    background-image: url("../images/Uraraka_sm_c.jpeg");
-    font-size: 1.4em;
-}
-
-#Characters .SidebarText_Iida{
-    color: white;
-    transition: 0.5s;
-    font-size: 1em;
-}
-
-#Characters .SidebarText_Iida:hover{
-    background-image: url("../images/Iida_sm_c.jpeg");
-    font-size: 1.4em;
-}
-
-#Characters .sizing{
-    height: 100%;
-    width: 100vw;
-}
-
-#Characters .repos{
-    height: 50vh;
-    width: 30vw;
-    margin-left: 27em;
-    margin-top: -16em;
-}
-
-
-#Characters p {
-    font-family: "Futura", sans-serif;
-    margin-left: 15em;
-    color: white;
-    height: 20vh;
-    width: 40vw;
-}
-
-#Characters .dark_gradient_btm{
-    background-image: linear-gradient(to top, black, transparent);
-}
-
-
-
-/*Allmight top nav bar*/
-
-#Characters .font_colour{
-    color: #F2DC43;
-}
-
-#Allmight a {
-    font-family: "Futura", sans-serif;
-    font-style: italic;
-    color: white;
-    font-size: 2em;
-}
-
-#Allmight .col {
-    padding: 2rem;
-    text-align: center;
-}
-
-
-
-#Allmight a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 4px;
-    left: 50%;
-    bottom: 30%;
-    position: absolute;
-    background: #F2DC43;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-
-
-#Allmight a:hover:after {
-    width: 100%;
-    left: 0;
-}
-
-/*Deku top nav bar*/
-
-#Characters .font_colour_deku{
-    color: #16564B;
-}
-
-#Deku a {
-    font-family: "Futura", sans-serif;
-    font-style: italic;
-    color: white;
-    font-size: 2em;
-}
-
-#Deku .col {
-    padding: 2rem;
-    text-align: center;
-}
-
-
-
-#Deku a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 4px;
-    left: 50%;
-    bottom: 30%;
-    position: absolute;
-    background: #16564B;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-
-
-#Deku a:hover:after {
-    width: 100%;
-    left: 0;
-}
-/*Bokugo top nav bar*/
-
-#Characters .font_colour_bokugo{
-    color: #AD443C;
-}
-
-#Bokugo a {
-    font-family: "Futura", sans-serif;
-    font-style: italic;
-    color: white;
-    font-size: 2em;
-}
-
-#Bokugo .col {
-    padding: 2rem;
-    text-align: center;
-}
-
-
-
-#Bokugo a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 4px;
-    left: 50%;
-    bottom: 30%;
-    position: absolute;
-    background: #AD443C;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-
-
-#Bokugo a:hover:after {
-    width: 100%;
-    left: 0;
-}
-
-/*Shoto top nav bar*/
-
-#Characters .font_colour_shoto1{
-    color: deepskyblue;
-}
-
-#Characters .font_colour_shoto2{
-    color: firebrick;
-}
-
-#Shoto a {
-    font-family: "Futura", sans-serif;
-    font-style: italic;
-    color: white;
-    font-size: 2em;
-}
-
-#Shoto .col {
-    padding: 2rem;
-    text-align: center;
-}
-
-
-
-#Shoto a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 4px;
-    left: 50%;
-    bottom: 30%;
-    position: absolute;
-    background: -webkit-linear-gradient(left, rgba(178,34,34 ,1 ) 0%, rgba(0,191,255 ,1 ) 100%);
-    background: linear-gradient(to right, rgba(178,34,34 ,1 ) 0%, rgba(0,191,255 ,1 ) 100%);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-
-
-#Shoto a:hover:after {
-    width: 100%;
-    left: 0;
-}
-
-/*Uraraka top nav bar*/
-
-#Characters .font_colour_uraraka{
-    color: #A23760;
-}
-
-#Uraraka a {
-    font-family: "Futura", sans-serif;
-    font-style: italic;
-    color: white;
-    font-size: 2em;
-}
-
-#Uraraka .col {
-    padding: 2rem;
-    text-align: center;
-}
-
-
-
-#Uraraka a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 4px;
-    left: 50%;
-    bottom: 30%;
-    position: absolute;
-    background: #A23760;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-
-
-#Uraraka a:hover:after {
-    width: 100%;
-    left: 0;
-}
-
-
-/*Iida top nav bar*/
-
-#Characters .font_colour_iida{
-    color: #87FFFE;
-}
-
-#Iida a {
-    font-family: "Futura", sans-serif;
-    font-style: italic;
-    color: white;
-    font-size: 2em;
-}
-
-#Iida .col {
-    padding: 2rem;
-    text-align: center;
-}
-
-
-
-#Iida a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 4px;
-    left: 50%;
-    bottom: 30%;
-    position: absolute;
-    background: #87FFFE;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-
-
-#Iida a:hover:after {
-    width: 100%;
-    left: 0;
+#Iida {
+    a {
+        font-family: "Futura", sans-serif;
+        font-style: italic;
+        color: white;
+        font-size: 2em;
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 4px;
+            left: 50%;
+            bottom: 30%;
+            position: absolute;
+            background: #87FFFE;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover {
+            &:after {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+    .col {
+        padding: 2rem;
+        text-align: center;
+    }
 }
