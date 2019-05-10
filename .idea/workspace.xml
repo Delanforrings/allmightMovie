@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="650747b3-e91b-49cb-b8b3-7b0dd905b7d1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/SideNav.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/sideNav.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Bokugo_m.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Characters_m.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Characters_m.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Contact_m.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Contact_m.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Deku_m.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Home_m.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Iida_m.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Landing_m.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Landing_m.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Media_m.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Media_m.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Shoto_m.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/mobile/Uraraka_m.jsx" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" afterPath="$PROJECT_DIR$/src/App.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideBar.css" afterPath="$PROJECT_DIR$/src/pages/mobile/Home_m.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideBar.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Bokugo.jsx" afterPath="$PROJECT_DIR$/src/pages/Bokugo.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Characters.jsx" afterPath="$PROJECT_DIR$/src/pages/Characters.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Characters.scss" afterPath="$PROJECT_DIR$/src/pages/Characters.scss" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Deku.jsx" afterPath="$PROJECT_DIR$/src/pages/Deku.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.scss" afterPath="$PROJECT_DIR$/src/pages/Home.scss" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Iida.jsx" afterPath="$PROJECT_DIR$/src/pages/Iida.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Landing.scss" afterPath="$PROJECT_DIR$/src/pages/Landing.scss" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Media.scss" afterPath="$PROJECT_DIR$/src/pages/Media.scss" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Shoto.jsx" afterPath="$PROJECT_DIR$/src/pages/Shoto.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Uraraka.jsx" afterPath="$PROJECT_DIR$/src/pages/Uraraka.jsx" />
-    </list>
+    <list default="true" id="650747b3-e91b-49cb-b8b3-7b0dd905b7d1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -362,7 +328,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42202000" />
+    <option name="totallyTimeSpent" value="42218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
