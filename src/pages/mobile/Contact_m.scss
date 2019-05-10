@@ -1,0 +1,27 @@
+#Contact_m {
+    p {
+        font-family: "Futura", sans-serif;
+        color: white;
+    }
+    h1 {
+        font-family: "Futura", sans-serif;
+        color: white;
+    }
+    h5 {
+        font-family: "Futura", sans-serif;
+        color: white;
+    }
+    .sizing_bg {
+        height: 100%;
+        width: 100%;
+    }
+    .hr_me {
+        border-top: 3px dashed #ED1F24;
+    }
+    a {
+        color: #ED1F24;
+    &:hover {
+         color: #F2DC43;
+     }
+    }
+}

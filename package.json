@@ -11,8 +11,10 @@
     "react-device-detect": "^1.6.2",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-metismenu": "^1.4.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
+    "react-sidenav": "^4.0.0",
     "react-welcome-page": "^0.2.1",
     "react-youtube": "^7.9.0"
   },

@@ -1,11 +1,11 @@
-#Characters {
+#Characters_m {
     .SideNavbar {
         font-family: "Futura", sans-serif;
         font-style: italic;
-        font-size: 2em;
+        font-size: 1em;
         color: white;
-        margin-top: 3em;
-        margin-left: 3em;
+        margin-top: 2em;
+        margin-left: 1em;
         text-shadow: grey 2px 5px;
     }
     .SidebarText_Allmight {
@@ -13,7 +13,7 @@
         transition: 0.5s;
         font-size: 1em;
         &:hover {
-            background-image: url("../images/allmight_c.jpeg");
+            background-image: url("../../images/allmight_c.jpeg");
             font-size: 1.4em;
         }
     }
@@ -22,7 +22,7 @@
         transition: 0.5s;
         font-size: 1em;
         &:hover {
-            background-image: url("../images/deku_sm_c.png");
+            background-image: url("../../images/deku_sm_c.png");
             font-size: 1.4em;
         }
     }
@@ -31,7 +31,7 @@
         transition: 0.5s;
         font-size: 1em;
         &:hover {
-            background-image: url("../images/Bokugo_sm_c.jpeg");
+            background-image: url("../../images/Bokugo_sm_c.jpeg");
             font-size: 1.4em;
         }
     }
@@ -40,7 +40,7 @@
         transition: 0.5s;
         font-size: 1em;
         &:hover {
-            background-image: url("../images/Shoto_sm_c.png");
+            background-image: url("../../images/Shoto_sm_c.png");
             font-size: 1.4em;
         }
     }
@@ -49,7 +49,7 @@
         transition: 0.5s;
         font-size: 1em;
         &:hover {
-            background-image: url("../images/Uraraka_sm_c.jpeg");
+            background-image: url("../../images/Uraraka_sm_c.jpeg");
             font-size: 1.4em;
         }
     }
@@ -58,7 +58,7 @@
         transition: 0.5s;
         font-size: 1em;
         &:hover {
-            background-image: url("../images/Iida_sm_c.jpeg");
+            background-image: url("../../images/Iida_sm_c.jpeg");
             font-size: 1.4em;
         }
     }
@@ -67,10 +67,11 @@
         width: 100vw;
     }
     .repos {
-        height: 50vh;
-        width: 30vw;
-        margin-left: 27em;
-        margin-top: -16em;
+        padding: 2rem;
+        //height: 50vh;
+        width: 100vw;
+        margin-left: -1em;
+        //margin-top: -16em;
     }
     p {
         font-family: "Futura", sans-serif;
@@ -104,7 +105,7 @@
         color: #87FFFE;
     }
 }
-#Allmight {
+#Allmight_m {
     a {
         font-family: "Futura", sans-serif;
         font-style: italic;
@@ -135,7 +136,7 @@
         text-align: center;
     }
 }
-#Deku {
+#Deku_m {
     a {
         font-family: "Futura", sans-serif;
         font-style: italic;
@@ -166,7 +167,7 @@
         text-align: center;
     }
 }
-#Bokugo {
+#Bokugo_m {
     a {
         font-family: "Futura", sans-serif;
         font-style: italic;
@@ -197,7 +198,7 @@
         text-align: center;
     }
 }
-#Shoto {
+#Shoto_m {
     a {
         font-family: "Futura", sans-serif;
         font-style: italic;
@@ -229,7 +230,7 @@
         text-align: center;
     }
 }
-#Uraraka {
+#Uraraka_m {
     a {
         font-family: "Futura", sans-serif;
         font-style: italic;
@@ -260,7 +261,7 @@
         text-align: center;
     }
 }
-#Iida {
+#Iida_m {
     a {
         font-family: "Futura", sans-serif;
         font-style: italic;

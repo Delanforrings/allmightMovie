@@ -3,7 +3,7 @@ import {MDBContainer, MDBRow, MDBCol, MDBView, MDBMask} from 'mdbreact';
 import "./Characters.scss"
 import Helmet from "react-helmet";
 import TopNavBar from "../components/TopNavBar";
-import SideBar from "../components/SideBar";
+import SideBar from "../components/SideNav";
 import character from "../images/Uraraka_c.png";
 
 

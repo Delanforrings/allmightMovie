@@ -10,8 +10,8 @@ body {
         width: 40vw;
     }
     .sizing {
-        max-height: 100vh;
-        max-width: 100vw;
+        height:100%;
+        width:100%;
     }
     .sizing_plot {
         max-height: 80vh;
@@ -19,8 +19,8 @@ body {
     }
     .sizing_bg {
         padding-left: 4rem;
-        max-height: 100vh;
-        max-width: 100vw;
+        height: 100%;
+        width: 100%;
     }
     h1 {
         font-family: "Futura", sans-serif;
