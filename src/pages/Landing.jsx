@@ -6,9 +6,18 @@ import Landing_bg from "../images/introbg.png";
 import landing_intro from "../images/banner3.png";
 import plot from "../images/plot.jpeg";
 import TopNavBar from "../components/TopNavBar";
+import { Preloader, Placeholder } from 'react-preloading-screen';
+import { ClipLoader } from 'react-spinners';
+import { css } from '@emotion/core';
 
 
 class Landing extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            loading: true
+        }
+    }
     render() {
         return (
 
@@ -19,7 +28,21 @@ class Landing extends React.Component {
                 </Helmet>
                 <TopNavBar/>
                 <MDBView>
-                    <img className="sizing_bg" src={landing_intro}/>
+                    <Preloader>
+                        <img className="sizing_bg" src={landing_intro}/>
+                        <Placeholder>
+                            <div className='sweet-loading'>
+                                <ClipLoader
+                                    
+                                    sizeUnit={"px"}
+                                    size={150}
+                                    color={'#123abc'}
+                                    loading={this.state.loading}
+                                />
+                            </div>
+                        </Placeholder>
+
+                    </Preloader>
                 </MDBView>
                 <br/>
                 <br/>
