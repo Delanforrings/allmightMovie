@@ -17,6 +17,7 @@ function App() {
       <Router>
           <div>
               <Animation type="fadeIn">
+
                   <Route exact path="/" component={Home} />
                   <Route path="/MyHeroAcademia" component={Landing} />
                   <Route path="/Characters" component={Characters} />
