@@ -23,10 +23,10 @@ import Iida_m from "./pages/mobile/Iida_m";
 import Media_m from "./pages/mobile/Media_m";
 import Contact_m from "./pages/mobile/Contact_m";
 
-
 function App() {
   return (
       <Router>
+
           <div>
               <Animation type="fadeIn">
                   <BrowserView>

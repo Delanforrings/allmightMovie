@@ -7,7 +7,7 @@ import landing_intro from "../images/banner3.png";
 import plot from "../images/plot.jpeg";
 import TopNavBar from "../components/TopNavBar";
 import { Preloader, Placeholder } from 'react-preloading-screen';
-import { ClimbingBoxLoader } from 'react-spinners';
+import { PacmanLoader} from 'react-spinners';
 import { css } from '@emotion/core';
 
 const override = css`
@@ -37,7 +37,7 @@ class Landing extends React.Component {
                         <img className="sizing_bg" src={landing_intro}/>
                         <Placeholder>
                             <div className='sweet-loading'>
-                                <ClimbingBoxLoader
+                                <PacmanLoader
                                     css={override}
                                     sizeUnit={"px"}
                                     size={50}
@@ -83,10 +83,6 @@ class Landing extends React.Component {
                     </MDBView>
 
                 </MDBRow>
-
-
-
-
 
 
             </div>

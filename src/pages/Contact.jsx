@@ -5,8 +5,24 @@ import TopNavBar from "../components/TopNavBar";
 import "./Contact.scss";
 import banner from "../images/contact.jpg";
 import me from "../images/me.jpg";
+import { Preloader, Placeholder } from 'react-preloading-screen';
+import { PacmanLoader} from 'react-spinners';
+import { css } from '@emotion/core';
+
+const override = css`
+    display: block;
+    margin: 0 auto;
+    border-color: red;
+`;
+
 
 class Contact extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            loading: true
+        }
+    }
     render() {
         return (
             <div id="Contact">
@@ -15,14 +31,31 @@ class Contact extends React.Component {
                     <title>How about some hero moments?</title>
                 </Helmet>
                 <TopNavBar/>
+                <Preloader  style={{backgroundColor:"#000"}}>
+                    <MDBView>
+                        <img className="sizing_bg" src={banner}/>
+                        <MDBMask className="dark_gradient_btm">
 
-                <MDBView>
-                    <img className="sizing_bg" src={banner}/>
-                    <MDBMask className="dark_gradient_btm">
+                        </MDBMask>
 
-                    </MDBMask>
+                    </MDBView>
+                    <Placeholder>
+                        <div className='sweet-loading'>
+                            <PacmanLoader
 
-                </MDBView>
+                                css={override}
+                                sizeUnit={"px"}
+                                size={50}
+                                color={'#F2DC43'}
+                                loading={this.state.loading}
+                            />
+                        </div>
+                    </Placeholder>
+
+                </Preloader>
+
+
+
                 <MDBContainer>
                     <MDBRow>
                         <MDBCol size="6">

@@ -5,9 +5,25 @@ import TopNavBar from "../components/TopNavBar";
 import Helmet from "react-helmet";
 import "./Media.scss";
 import media_bg from "../images/myheros.png";
+import { Preloader, Placeholder } from 'react-preloading-screen';
+import { PacmanLoader} from 'react-spinners';
+import { css } from '@emotion/core';
+
+const override = css`
+    display: block;
+    margin: 0 auto;
+    border-color: red;
+`;
+
 
 
 class Media extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            loading: true
+        }
+    }
     render() {
         const opts = {
             height: '702',
@@ -23,14 +39,29 @@ class Media extends React.Component {
                     <title>How about some hero moments?</title>
                 </Helmet>
                 <TopNavBar/>
+                <Preloader  style={{backgroundColor:"#000"}}>
+                    <MDBView>
+                        <img className="sizing_bg" src={media_bg}/>
+                        <MDBMask className="dark_gradient_btm">
 
-                <MDBView>
-                    <img className="sizing_bg" src={media_bg}/>
-                    <MDBMask className="dark_gradient_btm">
+                        </MDBMask>
 
-                    </MDBMask>
+                    </MDBView>
+                    <Placeholder>
+                        <div className='sweet-loading'>
+                            <PacmanLoader
 
-                </MDBView>
+                                css={override}
+                                sizeUnit={"px"}
+                                size={50}
+                                color={'#F2DC43'}
+                                loading={this.state.loading}
+                            />
+                        </div>
+                    </Placeholder>
+
+                </Preloader>
+
                 <br/>
 
                 <MDBContainer>
