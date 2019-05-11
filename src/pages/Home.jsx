@@ -30,7 +30,7 @@ class Home extends React.Component {
                 <MDBView>
                     <Preloader  style={{backgroundColor:"#000"}}>
                         <video className="video-intro vbg" playsInline
-                               autoPlay muted="1" loop>
+                               autoPlay muted="" loop>
                             <source src={home_bg_video} type="video/mp4" />
                         </video>
                         <Placeholder>
