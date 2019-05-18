@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 import {Animation} from 'mdbreact';
 import Home from "./pages/Home";
 import Landing from "./pages/Landing";
