@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/allmightMovie/precache-manifest.5081bf319fead02f45f66133d2b0c998.js"
+  "/allmightMovie/precache-manifest.f37183f8ac6884565bd4e5222292d1d3.js"
 );
 
 self.addEventListener('message', (event) => {

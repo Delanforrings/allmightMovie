@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbdb739a01a513c29c20b45151ce2ca3",
+    "revision": "34926637960da3bda174420613c33481",
     "url": "/allmightMovie/index.html"
   },
   {
-    "revision": "28f5d1745a7e232ace10",
-    "url": "/allmightMovie/static/css/2.4a020bf0.chunk.css"
+    "revision": "2400fd29c5a8010b33bd",
+    "url": "/allmightMovie/static/css/2.892cabad.chunk.css"
   },
   {
-    "revision": "e3373ab89bb92c781624",
-    "url": "/allmightMovie/static/css/main.2a8d54e2.chunk.css"
+    "revision": "2cda53fadffe0e449f20",
+    "url": "/allmightMovie/static/css/main.36a23ea3.chunk.css"
   },
   {
-    "revision": "28f5d1745a7e232ace10",
-    "url": "/allmightMovie/static/js/2.14368f14.chunk.js"
+    "revision": "2400fd29c5a8010b33bd",
+    "url": "/allmightMovie/static/js/2.e299d43f.chunk.js"
   },
   {
-    "revision": "e3373ab89bb92c781624",
-    "url": "/allmightMovie/static/js/main.a48164a9.chunk.js"
+    "revision": "2cda53fadffe0e449f20",
+    "url": "/allmightMovie/static/js/main.99e7c3b7.chunk.js"
   },
   {
     "revision": "7a22eba39e904c50c0d3",
     "url": "/allmightMovie/static/js/runtime~main.2e2c13c9.js"
-  },
-  {
-    "revision": "bfdf3f41813687263a93120e80bc454c",
-    "url": "/allmightMovie/static/media/All_Might_icon.bfdf3f41.png"
   },
   {
     "revision": "865ff447494637a04d9da9aec5febbd7",
@@ -122,6 +118,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "31ce5f67c57804264b914c1961e903ad",
     "url": "/allmightMovie/static/media/allmight_c_bg.31ce5f67.png"
+  },
+  {
+    "revision": "43d6929f288374de6af938d03f1a51e1",
+    "url": "/allmightMovie/static/media/allmight_cute.43d6929f.jpg"
+  },
+  {
+    "revision": "bfdf3f41813687263a93120e80bc454c",
+    "url": "/allmightMovie/static/media/allmight_icon.bfdf3f41.png"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
